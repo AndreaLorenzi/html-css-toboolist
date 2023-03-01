@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: #aaaaaa;
 }
 header {
     background-color: white;
     padding: .5rem 1rem;
+    margin-bottom: 5rem;
 }
 
 h1 {
@@ -24,5 +28,69 @@ h1 {
 main{
     background-color: white;
     border-radius: 10px;
-    
+    max-width: 550px;
+    margin: 4rem auto;
+
+
+}
+
+.btns{
+    padding: 1.5rem 3rem .5rem;
+    border-bottom: 2px solid #aaaaaa;
+}
+
+ul{
+    list-style: none;
+}
+
+.list-sections{
+    padding: 1.5rem 3rem 1rem;
+}
+
+.arrow-down{
+    vertical-align: -2px;
+    font-size: .8em;
+}
+
+.icon-status{
+    width: 1.5em;
+    height: 1.5em;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: .7em;
+}
+
+.status-tick{
+    color: green;
+    border-color: green;
+}
+
+.status-x{
+    color: red;
+    border-color: red;
+}
+.tag{
+    display: inline-block;
+    padding: .5em .8em;
+    border-radius: 0.9em;
+    color: white;
+}
+
+.tag-green{
+    background-color: rgb(0, 128, 128);
+
+}
+
+.tag-pink{
+    background-color: pink;
+}
+
+.tag-blue{
+    background-color: blue;
+}
+.tag-violet{
+    background-color: blueviolet;
 }
